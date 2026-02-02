@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { HeaderComponents } from './Components/HeaderComponents';
+import { FooterComponents } from './Components/FooterComponents';
+import { ContentComponents } from './Components/ContentComponents';
 // import './App.css'
 
 function App() {
-  var hetansh = {
-    name: "Patel Hetansh",
-    status: "MERN Stack"
-  };
 
   return (
     <div>
-      <h1>Name : {hetansh.name}</h1>
-      <h1>Course in : {hetansh.status}</h1>
+      <HeaderComponents></HeaderComponents>
+      <ContentComponents></ContentComponents>
+      <FooterComponents></FooterComponents>
     </div>
   )
 }
