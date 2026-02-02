@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Map5 = () => {
+export const Map6 = () => {
 
    var students = [
       { id: 1, name: "Hetansh", age: 23, marks: 78, city: "Unjha", gender: "male" },
@@ -10,7 +10,7 @@ export const Map5 = () => {
 
    return (
       <div style={{textAlign:'center'}}>
-         <h1>Map 5</h1>
+         <h1>Map 6</h1>
          <table className='table'>
             <thead>
                <tr>
@@ -25,13 +25,13 @@ export const Map5 = () => {
             <tbody>
                {
                   students.map((std) => {
-                     return <tr style={{backgroundColor: std.gender == 'female' && 'pink'}}>
-                        <td>{std.id}</td>
-                        <td>{std.name}</td>
-                        <td style={{backgroundColor: std.age>23 && 'red',color: std.age>23 && 'white'}}>{std.age}</td>
-                        <td style={{backgroundColor: std.marks>75 && 'green', color: std.marks>75 && 'white'}}>{std.marks}</td>
-                        <td>{std.city}</td>
-                        <td>{std.gender}</td>
+                     return <tr>
+                        <td style={{backgroundColor:'gray', color: 'white'}}>{std.id}</td>
+                        <td style={{backgroundColor:'green', color: 'white'}}>{std.name}</td>
+                        <td style={{backgroundColor:'yellow', color: 'black'}}>{std.age}</td>
+                        <td style={{backgroundColor:'skyblue', color: 'black'}}>{std.marks}</td>
+                        <td style={{backgroundColor:'orange', color: 'black'}}>{std.city}</td>
+                        <td style={{backgroundColor:'lightgrey', color: 'black'}}>{std.gender}</td>
                      </tr>
                   })
                }

@@ -9,6 +9,8 @@ import { Map2 } from './components/Map2';
 import { Map3 } from './components/Map3';
 import { Map4 } from './components/Map4';
 import { Map5 } from './components/Map5';
+import { Map6 } from './components/Map6';
+import { Map7 } from './components/Map7';
 // import './App.css'
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
   return (
     <div>
       <HeaderComponents></HeaderComponents>
+      <Map4></Map4>
       <Map5></Map5>
+      <Map6></Map6>
+      <Map7></Map7>
       <FooterComponents></FooterComponents>
     </div>
   )
