@@ -9,7 +9,7 @@ export const Map3 = () => {
    ]
 
    return (
-      <div style={{ textAlign: 'center', margin: 10 }}>
+      <div style={{ textAlign: 'center', margin: 10, fontSize:25 }}>
          <h1>Map 3</h1>
          {
             <table align='center'>

@@ -5,11 +5,11 @@ export const Map1 = () => {
    let cars = ["BMW", "RR", "LEMBO","MUSTANG"]
   
    return (
-    <div>
-      <h1>MAP 1</h1>
+    <div style={{textAlign:'center'}}>
+      <h1>Map 1</h1>
       {
          cars.map((c)=>{
-            return <h1>{c}</h1>
+            return <h2>{c}</h2>
          })
       }
     </div>
