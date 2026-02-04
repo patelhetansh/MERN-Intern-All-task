@@ -15,26 +15,15 @@ export const Navbar = () => {
                <ul class="navbar-nav mr-auto">
 
                   <li class="nav-item active">
-                     <Link class="nav-link" to="/map1"> Map1 </Link>
+                     <Link class="nav-link" to="/Netflixhome"> Netflixhome</Link>
                   </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map2"> Map2</Link>
+                  <li class="nav-item active">
+                     <Link class="nav-link" to="/Netflixshow"> Show</Link>
                   </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map3"> Map3</Link>
+                  <li class="nav-item active">
+                     <Link class="nav-link" to="/Netflixmovies"> Movies</Link>
                   </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map4"> Map4</Link>
-                  </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map5"> Map5</Link>
-                  </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map6"> Map6</Link>
-                  </li>
-                  <li class="nav-item">
-                     <Link class="nav-link" to="/map7"> Map7</Link>
-                  </li>
+                  
 
                </ul>
 
