@@ -19,6 +19,10 @@ import { Netflixshow } from './components/Netflixshow';
 import { Netflixhome } from './components/Netflixhome';
 import { Watch } from './components/Watch';
 import { Error } from './components/Error';
+import { Function1 } from './components/Function1';
+import { UseState1 } from './components/UseState1';
+import { UseState2 } from './components/UseState2';
+import { UseState3 } from './components/UseState3';
 
 // import './App.css'
 
@@ -33,7 +37,11 @@ function App() {
         <Route path='Netflixmovies' element={<Netflixmovies />}></Route>
         <Route path='/' element={<Home />}></Route>
         <Route path='/watch/:name' element={<Watch />}></Route>
-        <Route path="/*" element = {<Error/>}></Route>
+        <Route path="/Function1" element={<Function1 />}></Route>
+        <Route path="/UseState1" element={<UseState1 />}></Route>
+        <Route path="/UseState2" element={<UseState2 />}></Route>
+        <Route path="/UseState3" element={<UseState3 />}></Route>
+        <Route path="/*" element={<Error />}></Route>
 
       </Routes>
     </div>
