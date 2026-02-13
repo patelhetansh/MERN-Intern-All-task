@@ -11,7 +11,7 @@ import { Map4 } from './components/Map4';
 import { Map5 } from './components/Map5';
 import { Map6 } from './components/Map6';
 import { Map7 } from './components/Map7';
-import { Route, Routes } from 'react-router-dom';
+import { Form, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import { Netflixmovies } from './components/Netflixmovies';
@@ -26,6 +26,8 @@ import { UseState3 } from './components/UseState3';
 import { Employees } from './components/Employees';
 import { Input1 } from './components/input/Input1';
 import { Input2 } from './components/input/Input2';
+import { Form1 } from './components/form/Form1';
+import { Form2 } from './components/form/Form2';
 
 // import './App.css'
 
@@ -47,6 +49,8 @@ function App() {
         <Route path="/Employees" element={<Employees />}></Route>
         <Route path="/Input1" element={<Input1 />}></Route>
         <Route path="/Input2" element={<Input2 />}></Route>
+        <Route path="/Form1" element={<Form1 />}></Route>
+        <Route path="/Form2" element={<Form2 />}></Route>
         <Route path="/*" element={<Error />}></Route>
 
       </Routes>
